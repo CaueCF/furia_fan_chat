@@ -73,8 +73,8 @@ export const teamMembers = [{
 export const recentMatches = [{
   id: 1,
   opponent: "NAVI",
-  oponnent_logo:"/",
-  date: "2023-11-15",
+  oponnent_logo:"/Natus_Vincere_logo.png",
+  date: "15-11-2023",
   tournament: "IEM Rio Major 2023",
   result: "Won",
   score: "16-14",
@@ -82,8 +82,8 @@ export const recentMatches = [{
 }, {
   id: 2,
   opponent: "Vitality",
-  oponnent_logo:"/",
-  date: "2023-11-12",
+  oponnent_logo:"/Team_Vitality_logo.png",
+  date: "12-11-2023",
   tournament: "IEM Rio Major 2023",
   result: "Lost",
   score: "10-16",
@@ -92,7 +92,7 @@ export const recentMatches = [{
   id: 3,
   opponent: "MOUZ",
   oponnent_logo:"/MOUZ_logo.png",
-  date: "2023-11-08",
+  date: "08-11-2023",
   tournament: "IEM Rio Major 2023",
   result: "Won",
   score: "16-11",
@@ -101,7 +101,7 @@ export const recentMatches = [{
   id: 4,
   opponent: "Liquid",
   oponnent_logo:"/Team_Liquid_logo.png",
-  date: "2023-11-05",
+  date: "05-11-2023",
   tournament: "IEM Rio Major 2023",
   result: "Lost",
   score: "13-16",
@@ -109,8 +109,8 @@ export const recentMatches = [{
 }, {
   id: 5,
   opponent: "FaZe",
-  oponnent_logo:"/",
-  date: "2023-11-01",
+  oponnent_logo:"/FaZe_Clan_logo.png",
+  date: "01-11-2023",
   tournament: "IEM Rio Major 2023",
   result: "Won",
   score: "16-9",
@@ -120,21 +120,21 @@ export const upcomingMatches = [{
   id: 1,
   opponent: "Cloud9",
   oponnent_logo:"/Cloud9_logo.png",
-  date: "2023-11-20",
+  date: "20-11-2023",
   time: "15:00",
   tournament: "BLAST Premier Fall Final 2023"
 }, {
   id: 2,
   opponent: "G2",
   oponnent_logo:"/G2_Esports_logo.png",
-  date: "2023-11-25",
+  date: "25-11-2023",
   time: "18:30",
   tournament: "BLAST Premier Fall Final 2023"
 }, {
   id: 3,
   opponent: "Astralis",
   oponnent_logo:"/Astralis_logo.png",
-  date: "2023-12-01",
+  date: "01-12-2023",
   time: "12:00",
   tournament: "ESL Pro League Season 18"
 }];
