@@ -8,19 +8,20 @@ import {
   LogOut,
 } from 'lucide-react'
 import { useAuth } from '../context/AuthContext'
+import { useNavigate } from 'react-router'
 interface LayoutProps {
   children: React.ReactNode
   activeTab: string
   setActiveTab: (tab: string) => void
-  onLoginClick: () => void
 }
 const Layout: React.FC<LayoutProps> = ({
   children,
   activeTab,
   setActiveTab,
-  onLoginClick,
 }) => {
   const { user, logout, isAuthenticated } = useAuth();
+  const navigate = useNavigate();
+
   const tabs = [
     {
       id: 'live',
@@ -43,6 +44,14 @@ const Layout: React.FC<LayoutProps> = ({
       icon: <MessageSquare className="w-5 h-5" />,
     },
   ]
+
+  const handleLogout = () => {
+    logout()
+    if (activeTab === 'chat') {
+      setActiveTab('live')
+    }
+  }
+
   return (
     <div className="flex flex-col min-h-screen bg-[#0D0D0D] text-white">
       {/* Header */}
@@ -50,7 +59,7 @@ const Layout: React.FC<LayoutProps> = ({
         <div className="container mx-auto flex items-center justify-between">
           <div className="flex items-center gap-4">
             <img
-              src="/Furia_Esports_logo.png"
+              src="/logos/Furia_Esports_logo.png"
               alt="FURIA E-sports Logo"
               className="h-10"
             />
@@ -72,10 +81,10 @@ const Layout: React.FC<LayoutProps> = ({
               ))}
             </nav>
             {isAuthenticated ? (
-              <div className="flex items-center gap-4">
-                <span className="text-gray-400">Welcome, {user?.username}</span>
+              <div className="flex items-center gap-2">
+                <span className="text-gray-400">Bem vindo, {user?.username}</span>
                 <button
-                  onClick={logout}
+                  onClick={handleLogout}
                   className="flex items-center gap-2 px-3 py-2 rounded-md hover:bg-gray-800 transition-colors"
                 >
                   <LogOut className="w-5 h-5" />
@@ -84,7 +93,7 @@ const Layout: React.FC<LayoutProps> = ({
               </div>
             ) : (
               <button
-                onClick={onLoginClick}
+                onClick={() => navigate('/login')}
                 className="flex items-center gap-2 px-3 py-2 rounded-md hover:bg-gray-800 transition-colors"
               >
                 <LogIn className="w-5 h-5" />
