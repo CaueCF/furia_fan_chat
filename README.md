@@ -1,6 +1,6 @@
 # Magic Patterns - Vite Template
 
-Este código foi gerado com o auxílio do [Magic Patterns](https://magicpatterns.com).
+Buscando acelerar o desenvolvimento em um curto período de tempo, este código foi gerado com o auxílio do [Magic Patterns](https://magicpatterns.com).
 
 ## Getting Started
 
@@ -28,7 +28,7 @@ Nesta página é possivel visualizar de forma simples quais os próximos jogos d
 Na aba "Resultados recentes" é possivel ver o histórico recente de jogos do time, onde se é brevemente apresentado a qual foi o oponente, mapa, pontuação e data da partida, contendo uma forma simples e rápida de identificar se o time ganhou ou não aquela partida. 
 
 ### Time 
-Na página time é possível se inteirar melhor sobre os integrantes da equipe, tendo uma superficial das estatísticas de cada jogador, seu nome, idade e nacionalidade, acompanhados de uma foto deles e uma breve apresentação das ultimas conquistas do time, nomeando sua colocação e o campeonato ao qual participaram. 
+Na página time é possível se inteirar melhor sobre os integrantes da equipe, tendo uma visualização rápida das estatísticas de cada jogador, seu nome, idade e nacionalidade, acompanhados de uma foto deles e uma breve apresentação das ultimas conquistas do time, nomeando sua colocação e o campeonato ao qual participaram. 
 
 ### Fã Chat
 Na página Fã Chat os usuários que estiverem logados podem se juntar a outros fãs e comentarem sobre o time, a partida atual ou partidas passadas, promovendo uma maior integração entre a base de fãs e trazendo um ambiente familiar e confortável para discutirem sobre o time que amam e desejam todo o sucesso possível.
