@@ -25,22 +25,22 @@ const Layout: React.FC<LayoutProps> = ({
   const tabs = [
     {
       id: 'live',
-      label: 'Live Match',
+      label: 'Partida ao vivo',
       icon: <Flame className="w-5 h-5" />,
     },
     {
       id: 'matches',
-      label: 'Matches',
+      label: 'Partidas',
       icon: <Calendar className="w-5 h-5" />,
     },
     {
       id: 'team',
-      label: 'Team',
+      label: 'Time',
       icon: <Users className="w-5 h-5" />,
     },
     {
       id: 'chat',
-      label: 'Fan Chat',
+      label: 'Fã Chat',
       icon: <MessageSquare className="w-5 h-5" />,
     },
   ]
@@ -63,7 +63,7 @@ const Layout: React.FC<LayoutProps> = ({
               alt="FURIA E-sports Logo"
               className="h-10"
             />
-            <h1 className="text-xl font-bold text-white">FURIA CS Fã Hub</h1>
+            <h1 className="text-xl font-bold text-white">FCS Fã Hub</h1>
           </div>
           <div className="hidden md:flex items-center gap-6">
             <nav className="flex gap-6">

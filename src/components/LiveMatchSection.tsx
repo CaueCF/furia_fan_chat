@@ -4,7 +4,7 @@ import { liveMatch } from '../utils/mockData';
 const LiveMatchSection = () => {
   if (!liveMatch.inProgress) {
     return <div className="flex flex-col items-center justify-center h-96 text-center">
-        <h2 className="text-2xl font-bold text-gray-400 mb-4">No Live Match</h2>
+        <h2 className="text-2xl font-bold text-gray-400 mb-4">Não há partidas ao vivo</h2>
         <p className="text-gray-500">
           Não há lives abertas no momento. Cheque a programação para saber quando serão as próximas.
         </p>
@@ -25,7 +25,7 @@ const LiveMatchSection = () => {
               </span>
               <span className="text-sm text-black">{liveMatch.tournament}</span>
             </div>
-            <div className="text-sm text-black">Map: {liveMatch.map}</div>
+            <div className="text-sm text-black">Mapa: {liveMatch.map}</div>
           </div>
         </div>
         <div className="p-6">
@@ -58,7 +58,7 @@ const LiveMatchSection = () => {
             <table className="w-full">
               <thead>
                 <tr className={`border-b border-[${stroke}] text-white`}>
-                  <th className="text-left py-2">Player</th>
+                  <th className="text-left py-2">Jogador</th>
                   <th className="py-2">K</th>
                   <th className="py-2">D</th>
                   <th className="py-2">A</th>
@@ -79,14 +79,13 @@ const LiveMatchSection = () => {
         </div>
       </div>
       <div className={`bg-[${background}] rounded-lg p-6 border border-[${stroke}]`}>
-        <h3 className="text-xl font-bold mb-4">Match Analysis</h3>
+        <h3 className="text-xl font-bold mb-4">Análise da Partida</h3>
         <div className="space-y-4">
           <div>
-            <h4 className="font-medium text-white mb-2">Key Highlights</h4>
+            <h4 className="font-medium text-white mb-2">Destaques</h4>
             <ul className={`list-disc list-inside space-y-1 text-[${stroke}]`}>
               <li>
-                FURIA's strong T-side performance with 9 rounds in the first
-                half
+                Fúria mantem uma boa performance com um forte lado T nos 9 rounds da primeira metade
               </li>
               <li>
                 KSCERATO lidera com 21 abates e vários clutches
@@ -98,9 +97,7 @@ const LiveMatchSection = () => {
             <h4 className="font-medium text-white mb-2">Estratégia Atual</h4>
             <p className={`text-[${stroke}]`}>
               FURIA está focando em um controle mais agressivo do meio e fazendo rápidas rotações entre os pontos. 
-              FURIA is focusing on aggressive mid control and fast rotations
-              between sites. The team's utility usage has been exceptional, with
-              perfectly timed executes on the A site.
+              O time tem feito ótimo uso dos utilities, com timings perfeitamente executados no lado A.
             </p>
           </div>
         </div>

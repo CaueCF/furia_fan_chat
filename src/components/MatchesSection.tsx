@@ -15,13 +15,13 @@ const MatchesSection = () => {
         className={`px-4 py-2 font-medium 
           ${activeTab === 'upcoming' ? 'text-white border-b-2 border-white' : `text-[${stroke}] hover:text-gray-400`}`
         }>
-          Upcoming Matches
+          Próximas partidas
         </button>
         <button onClick={() => setActiveTab('recent')} 
         className={`px-4 py-2 font-medium 
         ${activeTab === 'recent' ? 'text-white border-b-2 border-white' : `text-[${stroke}] hover:text-gray-400`}`
         }>
-          Recent Results
+          Resultados Recentes
         </button>
       </div>
       {activeTab === 'upcoming' && <div className="space-y-4">
@@ -69,7 +69,7 @@ const MatchesSection = () => {
               <button className={`mt-4 w-full py-2 
                 bg-gray-300 hover:bg-gray-400 rounded-md 
                 font-medium transition-colors text-black`}>
-                Set Reminder
+                Marcar Lembrete
               </button>
             </div>)}
         </div>}
@@ -107,7 +107,7 @@ const MatchesSection = () => {
                     {match.score.split('-')[0]} : {match.score.split('-')[1]}
                   </div>
                   <span className={`text-xs px-2 py-0.5 rounded 
-                    ${match.result === 'Won' ? 'bg-green-900 text-green-300' : 'bg-red-900 text-red-300'}`}>
+                    ${match.result === 'Ganhou' ? 'bg-green-900 text-green-300' : 'bg-red-900 text-red-300'}`}>
                     {match.result.toUpperCase()}
                   </span>
                 </div>
@@ -124,7 +124,7 @@ const MatchesSection = () => {
               <button className={`mt-4 w-full py-2 
                 bg-gray-300 hover:bg-gray-400 rounded-md 
                 font-medium transition-colors text-black`}>
-                View Match Details
+                Ver detalhes da partida
               </button>
             </div>)}
         </div>}

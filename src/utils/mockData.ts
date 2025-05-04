@@ -76,7 +76,7 @@ export const recentMatches = [{
   oponnent_logo:"/logos/Natus_Vincere_logo.png",
   date: "15-11-2023",
   tournament: "IEM Rio Major 2023",
-  result: "Won",
+  result: "Ganhou",
   score: "16-14",
   map: "Inferno"
 }, {
@@ -85,7 +85,7 @@ export const recentMatches = [{
   oponnent_logo:"/logos/Team_Vitality_logo2.png",
   date: "12-11-2023",
   tournament: "IEM Rio Major 2023",
-  result: "Lost",
+  result: "Perdeu",
   score: "10-16",
   map: "Mirage"
 }, {
@@ -94,7 +94,7 @@ export const recentMatches = [{
   oponnent_logo:"/logos/MOUZ_logo.png",
   date: "08-11-2023",
   tournament: "IEM Rio Major 2023",
-  result: "Won",
+  result: "Ganhou",
   score: "16-11",
   map: "Nuke"
 }, {
@@ -103,7 +103,7 @@ export const recentMatches = [{
   oponnent_logo:"/logos/Team_Liquid_logo.png",
   date: "05-11-2023",
   tournament: "IEM Rio Major 2023",
-  result: "Lost",
+  result: "Perdeu",
   score: "13-16",
   map: "Ancient"
 }, {
@@ -112,7 +112,7 @@ export const recentMatches = [{
   oponnent_logo:"/logos/FaZe_Clan_logo.png",
   date: "01-11-2023",
   tournament: "IEM Rio Major 2023",
-  result: "Won",
+  result: "Ganhou",
   score: "16-9",
   map: "Overpass"
 }];

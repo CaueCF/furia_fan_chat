@@ -43,7 +43,7 @@ const TeamSection = () => {
               <div className="mt-4">
                 <h4 className="font-medium flex items-center mb-2">
                   <BarChart2 className="w-4 h-4 mr-1 text-white" />
-                  <span>2023 Estatísticas</span>
+                  <span>Estatísticas 2023</span>
                 </h4>
                 <div className={`grid grid-cols-2 gap-2 text-sm`}>
                   <div className={`p-2 rounded bg-[#0D0D0D]`}>
@@ -75,7 +75,7 @@ const TeamSection = () => {
           </div>)}
       </div>
       <div className={`bg-[${background}}] rounded-lg p-6 border border-[${stroke}]`}>
-        <h3 className="text-xl font-bold mb-4">Team Achievements</h3>
+        <h3 className="text-xl font-bold mb-4">Conquistas do Time</h3>
         <div className="space-y-3">
           <div className="flex items-start">
             <div className="bg-yellow-500 rounded-full p-1 mr-3 mt-1">
@@ -83,9 +83,9 @@ const TeamSection = () => {
             </div>
             <div>
               <h4 className="font-medium">
-                1st Place - ESL Pro League Season 16
+                1º Lugar - ESL Pro League Season 16
               </h4>
-              <p className="text-sm text-gray-400">September 2022</p>
+              <p className="text-sm text-gray-400">Setembro 2022</p>
             </div>
           </div>
           <div className="flex items-start">
@@ -93,8 +93,8 @@ const TeamSection = () => {
               <Trophy className="w-4 h-4 text-black" />
             </div>
             <div>
-              <h4 className="font-medium">2nd Place - IEM Rio Major 2022</h4>
-              <p className="text-sm text-gray-400">November 2022</p>
+              <h4 className="font-medium">2º Lugar - IEM Rio Major 2022</h4>
+              <p className="text-sm text-gray-400">Novembro 2022</p>
             </div>
           </div>
           <div className="flex items-start">
@@ -103,9 +103,9 @@ const TeamSection = () => {
             </div>
             <div>
               <h4 className="font-medium">
-                3rd-4th Place - BLAST Premier Spring Final 2023
+                3º-4º Lugar - BLAST Premier Spring Final 2023
               </h4>
-              <p className="text-sm text-gray-400">June 2023</p>
+              <p className="text-sm text-gray-400">Junho 2023</p>
             </div>
           </div>
         </div>
