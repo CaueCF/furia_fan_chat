@@ -39,7 +39,7 @@ Simples página de login para a liberação do chat aos usuários que estiverem 
 
 # Contribuições futuras
 
-Complementações à pagina serem feitas:
+Complementações à serem feitas:
 - Acrescentar a funcionalidade de agendar um lembrete para partidas futuras na aba "Próximas partidas" da página "Partidas".
 - Criar uma página que informe mais detalhadamente sobre como se decorreu a partida selecionada na aba "Partidas Recentes", da página "Partidas".
 - Adicionar uma página exclusiva para cada jogador, na página "Time", onde informação mais específicas podem ser apresentadas aos fãs.
